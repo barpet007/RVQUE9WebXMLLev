@@ -60,7 +60,7 @@
     <ora id="o6" tipus="eloadas">
         <kurzusnev>Web technológiák 1-</kurzusnev>
         <idopont>
-            <nap>2024-09-27</nap>
+            <nap>2024-09-28</nap>
             <tol>08:30</tol>
             <ig>15:10</ig>
         </idopont>
@@ -93,7 +93,7 @@
     <ora id="o9" tipus="eloadas">
         <kurzusnev>Webes adatkezelő környezetek</kurzusnev>
         <idopont>
-            <nap>2024-10-10</nap>
+            <nap>2024-10-11</nap>
             <tol>12:30</tol>
             <ig>15:50</ig>
         </idopont>
@@ -101,10 +101,10 @@
         <oktato>Dr- Bednarik László</oktato>
         <szak>Mérnökinformatikus BSC</szak>
     </ora>
-    <ora id="o12" tipus="eloadas">
+    <ora id="o10" tipus="eloadas">
         <kurzusnev>Mobil programozási alapok</kurzusnev>
         <idopont>
-            <nap>2024-10-11</nap>
+            <nap>2024-10-12</nap>
             <tol>08:30</tol>
             <ig>15:10</ig>
         </idopont>
@@ -112,7 +112,7 @@
         <oktato>Agárdi Anita</oktato>
         <szak>Mérnökinformatikus BSC</szak>
     </ora>
-    <ora id="o13" tipus="eloadas">
+    <ora id="o11" tipus="eloadas">
         <kurzusnev>Mesterséges intelligencia alapok</kurzusnev>
         <idopont>
             <nap>2024-11-15</nap>
@@ -123,7 +123,7 @@
         <oktato>Fazekas Levente</oktato>
         <szak>Mérnökinformatikus BSC</szak>
     </ora>
-    <ora id="o14" tipus="eloadas">
+    <ora id="o12" tipus="eloadas">
         <kurzusnev>Szoftvertechnológia</kurzusnev>
         <idopont>
             <nap>2024-11-29</nap>
@@ -134,7 +134,7 @@
         <oktato>Tompa Tamás IAL</oktato>
         <szak>Mérnökinformatikus BSC</szak>
     </ora>
-    <ora id="o15" tipus="eloadas">
+    <ora id="o13" tipus="eloadas">
         <kurzusnev>Mesterséges intelligencia alapok</kurzusnev>
         <idopont>
             <nap>2024-11-30</nap>
@@ -145,7 +145,7 @@
         <oktato>Fazekas Levente</oktato>
         <szak>Mérnökinformatikus BSC</szak>
     </ora>
-    <ora id="o16" tipus="eloadas">
+    <ora id="o14" tipus="eloadas">
         <kurzusnev>Webes adatkezelő környezetek</kurzusnev>
         <idopont>
             <nap>2024-12-06</nap>
@@ -156,7 +156,7 @@
         <oktato>Dr- Bednarik László</oktato>
         <szak>Mérnökinformatikus BSC</szak>
     </ora>
-    <ora id="o27" tipus="eloadas">
+    <ora id="o15" tipus="eloadas">
         <kurzusnev>Szoftvertechnológia</kurzusnev>
         <idopont>
             <nap>2024-12-13</nap>
