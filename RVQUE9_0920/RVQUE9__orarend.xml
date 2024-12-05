@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<orarend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="RVQUE9__orarend.xsd">
+<!DOCTYPE orarend SYSTEM "RVQUE9__orarend.dtd">
     
+    <orarend>
     <ora id="o1" tipus="eloadas">
         <kurzusnev>Mesterséges intelligencia alapok</kurzusnev>
         <idopont>
