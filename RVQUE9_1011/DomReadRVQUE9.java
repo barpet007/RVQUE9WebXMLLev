@@ -10,7 +10,7 @@ public class DomReadRVQUE9 {
     public static void main(String[] args) {
         try {
             // XML fájl betöltése
-            File xmlFile = new File("RVQUE9_orarend.xml");
+            File xmlFile = new File("D:\\Repos\\Cloud\\RVQUE9WebXMLLev\\RVQUE9_1011\\RVQUE9__orarend.xml");
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = factory.newDocumentBuilder();
             Document doc = builder.parse(xmlFile);
