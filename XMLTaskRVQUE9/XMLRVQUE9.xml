@@ -1,25 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TaxiRendszer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLSchemaRVQUE9.xsd">
+<!-- Utas adatai-->
     <Utas>
-        <UtasID></UtasID>
-        <Nev></Nev>
-        <Telefon></Telefon>
-        <Email></Email>
+        <UtasID>01</UtasID>
+        <Nev>Kiss István</Nev>
+        <Telefon>06702593123</Telefon>
+        <Email>kis.istvan@valami.com</Email>
         <Lakcim>
-            <Varos></Varos>
-            <UtcaHsz></UtcaHsz>
-            <IranyitoSzam></IranyitoSzam>
+            <Varos>Gyula</Varos>
+            <UtcaHsz>Kossuth Lajos u. 18</UtcaHsz>
+            <IranyitoSzam>5700</IranyitoSzam>
+        </Lakcim>
+    </Utas>
+    <Utas>
+        <UtasID>02</UtasID>
+        <Nev>Németh Zoltán</Nev>
+        <Telefon>06305874236</Telefon>
+        <Email>zoltan.nemeth@upc.com</Email>
+        <Lakcim>
+            <Varos>Debrecen</Varos>
+            <UtcaHsz>Gázvezeték utca 85</UtcaHsz>
+            <IranyitoSzam>4030</IranyitoSzam>
+        </Lakcim>
+    </Utas>
+    <Utas>
+        <UtasID>03</UtasID>
+        <Nev>Balogh Antal</Nev>
+        <Telefon>06207846218</Telefon>
+        <Email>antal.balogh@t-online.hu</Email>
+        <Lakcim>
+            <Varos>Miskolc</Varos>
+            <UtcaHsz>Vörösmarty utca 52.</UtcaHsz>
+            <IranyitoSzam>3532</IranyitoSzam>
         </Lakcim>
     </Utas>
     <Rendeles>
-        <RendelesID></RendelesID>
-        <FelvetelHelye></FelvetelHelye>
-        <LeadasHelye></LeadasHelye>
-        <RendelesIdeje>2004-04-12T13:20:00</RendelesIdeje>
+        <RendelesID>001</RendelesID>
+        <FelvetelHelye>Miskolc</FelvetelHelye>
+        <LeadasHelye>Miskolc</LeadasHelye>
+        <RendelesIdeje>2024-11-12T13:20:00</RendelesIdeje>
         <Tarifa>244</Tarifa>
-        <UtasID></UtasID>
-        <UtID></UtID>
+        <UtasID>03</UtasID>
+        <UtID>01</UtID>
     </Rendeles>
+    <Rendeles>
+        <RendelesID>002</RendelesID>
+        <FelvetelHelye>Debrecen-Piac utca</FelvetelHelye>
+        <LeadasHelye>Debrecen-Gázvezeték utca 85.</LeadasHelye>
+        <RendelesIdeje>2024-12-01T18:20:00</RendelesIdeje>
+        <Tarifa>244</Tarifa>
+        <UtasID>02</UtasID>
+        <UtID>02</UtID>
+    </Rendeles>
+    <Rendeles>
+        <RendelesID>003</RendelesID>
+        <FelvetelHelye>Gyula-Diófa utca 12.</FelvetelHelye>
+        <LeadasHelye>Gyula-Kossuth Lajos u. 18</LeadasHelye>
+        <RendelesIdeje>2004-12-06T17:53:00</RendelesIdeje>
+        <Tarifa>244</Tarifa>
+        <UtasID>01</UtasID>
+        <UtID>03</UtID>
+    </Rendeles>
+    <Ut>
+        <UtID>01</UtID>
+        <Kezdopont>Vörömarty utca 52.</Kezdopont>
+        <Vegpont>Győrikapu</Vegpont>
+        <Tavolsag>12</Tavolsag>
+        <UtasIdo>13</UtasIdo>
+    </Ut>
     <Ut>
         <UtID></UtID>
         <Kezdopont></Kezdopont>
@@ -27,6 +75,14 @@
         <Tavolsag>12</Tavolsag>
         <UtasIdo>20</UtasIdo>
     </Ut>
+    <Ut>
+        <UtID></UtID>
+        <Kezdopont></Kezdopont>
+        <Vegpont></Vegpont>
+        <Tavolsag>12</Tavolsag>
+        <UtasIdo>20</UtasIdo>
+    </Ut>
+    
     <Vezeto>
         <VezetoID></VezetoID>
         <Nev></Nev>
@@ -37,6 +93,38 @@
             <TaxiID></TaxiID>
         </Gepkocsija>
     </Vezeto>
+    <Vezeto>
+        <VezetoID></VezetoID>
+        <Nev></Nev>
+        <Telefon></Telefon>
+        <JogositvanySzam></JogositvanySzam>
+        <JogositvanyKategoria></JogositvanyKategoria>
+        <Gepkocsija>
+            <TaxiID></TaxiID>
+        </Gepkocsija>
+    </Vezeto>   
+    <Vezeto>
+        <VezetoID></VezetoID>
+        <Nev></Nev>
+        <Telefon></Telefon>
+        <JogositvanySzam></JogositvanySzam>
+        <JogositvanyKategoria></JogositvanyKategoria>
+        <Gepkocsija>
+            <TaxiID></TaxiID>
+        </Gepkocsija>
+    </Vezeto>
+    <Taxi>
+        <TaxiID></TaxiID>
+        <Rendszam></Rendszam>
+        <Model></Model>
+        <Kapacitas>5</Kapacitas>
+    </Taxi>
+    <Taxi>
+        <TaxiID></TaxiID>
+        <Rendszam></Rendszam>
+        <Model></Model>
+        <Kapacitas>5</Kapacitas>
+    </Taxi>
     <Taxi>
         <TaxiID></TaxiID>
         <Rendszam></Rendszam>
