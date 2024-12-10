@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="TaxiRendszer">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Utas" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="UtasID" type="xs:string" />
+                            <xs:element name="Nev" type="xs:string" />
+                            <xs:element name="Telefon" type="xs:string" />
+                            <xs:element name="Email" type="xs:string" />
+                            <xs:element name="Lakcim">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Varos" type="xs:string" />
+                                        <xs:element name="UtcaHsz" type="xs:string" />
+                                        <xs:element name="IranyitoSzam" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Rendeles" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="RendelesID" type="xs:string" />
+                            <xs:element name="FelvetelHelye" type="xs:string" />
+                            <xs:element name="LeadasHelye" type="xs:string" />
+                            <xs:element name="RendelesIdeje" type="xs:dateTime" />
+                            <xs:element name="Tarifa" type="xs:decimal" />
+                            <xs:element name="UtasID" type="xs:string" />
+                            <xs:element name="UtID" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Ut" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="UtID" type="xs:string" />
+                            <xs:element name="Kezdopont" type="xs:string" />
+                            <xs:element name="Vegpont" type="xs:string" />
+                            <xs:element name="Tavolsag" type="xs:decimal" />
+                            <xs:element name="UtasIdo" type="xs:decimal" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Vezeto" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="VezetoID" type="xs:string" />
+                            <xs:element name="Nev" type="xs:string" />
+                            <xs:element name="Telefon" type="xs:string" />
+                            <xs:element name="JogositvanySzam" type="xs:string" />
+                            <xs:element name="JogositvanyKategoria" type="xs:string" />
+                            <xs:element name="Gepkocsija">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="TaxiID" type="xs:string" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Taxi" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="TaxiID" type="xs:string" />
+                            <xs:element name="Rendszam" type="xs:string" />
+                            <xs:element name="Model" type="xs:string" />
+                            <xs:element name="Kapacitas" type="xs:integer" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

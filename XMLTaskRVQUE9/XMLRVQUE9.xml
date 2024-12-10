@@ -1,0 +1,46 @@
+
+<TaxiRendszer>
+    <Utas>
+        <UtasID></UtasID>
+        <Nev></Nev>
+        <Telefon></Telefon>
+        <Email></Email>
+        <Lakcim>
+            <Varos></Varos>
+            <UtcaHsz></UtcaHsz>
+            <IranyitoSzam></IranyitoSzam>
+        </Lakcim>
+    </Utas>
+    <Rendeles>
+        <RendelesID></RendelesID>
+        <FelvetelHelye></FelvetelHelye>
+        <LeadasHelye></LeadasHelye>
+        <RendelesIdeje></RendelesIdeje>
+        <Tarifa></Tarifa>
+        <UtasID></UtasID>
+        <UtID></UtID>
+    </Rendeles>
+    <Ut>
+        <UtID></UtID>
+        <Kezdopont></Kezdopont>
+        <Vegpont></Vegpont>
+        <Tavolsag></Tavolsag>
+        <UtasIdo></UtasIdo>
+    </Ut>
+    <Vezeto>
+        <VezetoID></VezetoID>
+        <Nev></Nev>
+        <Telefon></Telefon>
+        <JogositvanySzam></JogositvanySzam>
+        <JogositvanyKategoria></JogositvanyKategoria>
+        <Gepkocsija>
+            <TaxiID></TaxiID>
+        </Gepkocsija>
+    </Vezeto>
+    <Taxi>
+        <TaxiID></TaxiID>
+        <Rendszam></Rendszam>
+        <Model></Model>
+        <Kapacitas></Kapacitas>
+    </Taxi>
+</TaxiRendszer>
