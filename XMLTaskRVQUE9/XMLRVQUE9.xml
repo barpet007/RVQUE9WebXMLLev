@@ -1,5 +1,5 @@
-
-<TaxiRendszer>
+<?xml version="1.0" encoding="UTF-8"?>
+<TaxiRendszer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLSchemaRVQUE9.xsd">
     <Utas>
         <UtasID></UtasID>
         <Nev></Nev>
@@ -15,8 +15,8 @@
         <RendelesID></RendelesID>
         <FelvetelHelye></FelvetelHelye>
         <LeadasHelye></LeadasHelye>
-        <RendelesIdeje></RendelesIdeje>
-        <Tarifa></Tarifa>
+        <RendelesIdeje>2004-04-12T13:20:00</RendelesIdeje>
+        <Tarifa>244</Tarifa>
         <UtasID></UtasID>
         <UtID></UtID>
     </Rendeles>
@@ -24,8 +24,8 @@
         <UtID></UtID>
         <Kezdopont></Kezdopont>
         <Vegpont></Vegpont>
-        <Tavolsag></Tavolsag>
-        <UtasIdo></UtasIdo>
+        <Tavolsag>12</Tavolsag>
+        <UtasIdo>20</UtasIdo>
     </Ut>
     <Vezeto>
         <VezetoID></VezetoID>
@@ -41,6 +41,6 @@
         <TaxiID></TaxiID>
         <Rendszam></Rendszam>
         <Model></Model>
-        <Kapacitas></Kapacitas>
+        <Kapacitas>5</Kapacitas>
     </Taxi>
 </TaxiRendszer>
