@@ -45,8 +45,8 @@
     </Rendeles>
     <Rendeles>
         <RendelesID>002</RendelesID>
-        <FelvetelHelye>Debrecen-Piac utca</FelvetelHelye>
-        <LeadasHelye>Debrecen-Gázvezeték utca 85.</LeadasHelye>
+        <FelvetelHelye>Debrecen</FelvetelHelye>
+        <LeadasHelye>Debrecen</LeadasHelye>
         <RendelesIdeje>2024-12-01T18:20:00</RendelesIdeje>
         <Tarifa>244</Tarifa>
         <UtasID>02</UtasID>
@@ -54,8 +54,8 @@
     </Rendeles>
     <Rendeles>
         <RendelesID>003</RendelesID>
-        <FelvetelHelye>Gyula-Diófa utca 12.</FelvetelHelye>
-        <LeadasHelye>Gyula-Kossuth Lajos u. 18</LeadasHelye>
+        <FelvetelHelye>Gyula</FelvetelHelye>
+        <LeadasHelye>Gyula</LeadasHelye>
         <RendelesIdeje>2004-12-06T17:53:00</RendelesIdeje>
         <Tarifa>244</Tarifa>
         <UtasID>01</UtasID>
@@ -69,66 +69,66 @@
         <UtasIdo>13</UtasIdo>
     </Ut>
     <Ut>
-        <UtID></UtID>
-        <Kezdopont></Kezdopont>
-        <Vegpont></Vegpont>
-        <Tavolsag>12</Tavolsag>
-        <UtasIdo>20</UtasIdo>
+        <UtID>02</UtID>
+        <Kezdopont>Piac utca</Kezdopont>
+        <Vegpont>Gázvezeték utca 85.</Vegpont>
+        <Tavolsag>9</Tavolsag>
+        <UtasIdo>12</UtasIdo>
     </Ut>
     <Ut>
-        <UtID></UtID>
-        <Kezdopont></Kezdopont>
-        <Vegpont></Vegpont>
-        <Tavolsag>12</Tavolsag>
-        <UtasIdo>20</UtasIdo>
+        <UtID>03</UtID>
+        <Kezdopont>Diófa utca 12.</Kezdopont>
+        <Vegpont>Kossuth Lajos u. 18</Vegpont>
+        <Tavolsag>9</Tavolsag>
+        <UtasIdo>16</UtasIdo>
     </Ut>
     
     <Vezeto>
-        <VezetoID></VezetoID>
-        <Nev></Nev>
-        <Telefon></Telefon>
-        <JogositvanySzam></JogositvanySzam>
-        <JogositvanyKategoria></JogositvanyKategoria>
+        <VezetoID>01</VezetoID>
+        <Nev>Hoffman Géza</Nev>
+        <Telefon>06208563179</Telefon>
+        <JogositvanySzam>CH135874</JogositvanySzam>
+        <JogositvanyKategoria>B</JogositvanyKategoria>
         <Gepkocsija>
-            <TaxiID></TaxiID>
+            <TaxiID>01</TaxiID>
         </Gepkocsija>
     </Vezeto>
     <Vezeto>
-        <VezetoID></VezetoID>
-        <Nev></Nev>
-        <Telefon></Telefon>
-        <JogositvanySzam></JogositvanySzam>
-        <JogositvanyKategoria></JogositvanyKategoria>
+        <VezetoID>02</VezetoID>
+        <Nev>Kelemen János</Nev>
+        <Telefon>06709517532</Telefon>
+        <JogositvanySzam>CT157893</JogositvanySzam>
+        <JogositvanyKategoria>B</JogositvanyKategoria>
         <Gepkocsija>
-            <TaxiID></TaxiID>
+            <TaxiID>02</TaxiID>
         </Gepkocsija>
     </Vezeto>   
     <Vezeto>
-        <VezetoID></VezetoID>
-        <Nev></Nev>
-        <Telefon></Telefon>
-        <JogositvanySzam></JogositvanySzam>
-        <JogositvanyKategoria></JogositvanyKategoria>
+        <VezetoID>03</VezetoID>
+        <Nev>Horváth Péter</Nev>
+        <Telefon>06302874695</Telefon>
+        <JogositvanySzam>CD187496</JogositvanySzam>
+        <JogositvanyKategoria>B</JogositvanyKategoria>
         <Gepkocsija>
-            <TaxiID></TaxiID>
+            <TaxiID>03</TaxiID>
         </Gepkocsija>
     </Vezeto>
     <Taxi>
-        <TaxiID></TaxiID>
-        <Rendszam></Rendszam>
-        <Model></Model>
+        <TaxiID>01</TaxiID>
+        <Rendszam>AK-HT-578</Rendszam>
+        <Model>SKODA OCTAVIA Combi</Model>
         <Kapacitas>5</Kapacitas>
     </Taxi>
     <Taxi>
-        <TaxiID></TaxiID>
-        <Rendszam></Rendszam>
-        <Model></Model>
+        <TaxiID>02</TaxiID>
+        <Rendszam>HJD-258</Rendszam>
+        <Model>VW GOLF Combi</Model>
         <Kapacitas>5</Kapacitas>
     </Taxi>
     <Taxi>
-        <TaxiID></TaxiID>
-        <Rendszam></Rendszam>
-        <Model></Model>
+        <TaxiID>03</TaxiID>
+        <Rendszam>AA-FN-852</Rendszam>
+        <Model>AUDI A4</Model>
         <Kapacitas>5</Kapacitas>
     </Taxi>
 </TaxiRendszer>
