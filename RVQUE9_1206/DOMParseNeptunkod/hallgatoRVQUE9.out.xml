@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><?xml1 version="1.0" encoding="utf-8"?><class>
+    <student id="01"> 
+        <vezeteknev>Bartók</vezeteknev>
+        <keresztnev>Péter László</keresztnev>
+        <becenev>Gyula</becenev>
+        <kor>54</kor>
+        <osztonndij>600000</osztonndij>
+    </student>
+
+    <student id="02"> 
+        <vezeteknev>Kék</vezeteknev>
+        <keresztnev>Dóra</keresztnev>
+        <becenev>Dorka</becenev>
+        <kor>20</kor>
+        <osztonndij>520000</osztonndij>
+    </student>
+
+    <student id="03"> 
+        <vezeteknev>Zsoldos</vezeteknev>
+        <keresztnev>Andrea</keresztnev>
+        <becenev>Andi</becenev>
+        <kor>18</kor>
+        <osztonndij>450000</osztonndij>
+    </student>
+</class>
