@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orarend>
+    <ora>
+        <tantargy>Matematika</tantargy>
+        <tanar>Dr. Kovács</tanar>
+        <terem>101</terem>
+        <idopont>08:00-09:30</idopont>
+    </ora>
+    <ora>
+        <tantargy>Fizika</tantargy>
+        <tanar>Dr. Szabó</tanar>
+        <terem>102</terem>
+        <idopont>10:00-11:30</idopont>
+    </ora>
+</orarend>
